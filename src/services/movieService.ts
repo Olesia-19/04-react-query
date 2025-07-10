@@ -1,6 +1,6 @@
 import axios from "axios";
 import type {Movie} from '../types/movie'
-const myToken = import.meta.env.VITE_API_KEY;
+const myToken = import.meta.env.VITE_TMDB_TOKEN;
 
 export interface FetchMoviesResponse {
     page: number,
